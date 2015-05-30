@@ -1,1 +1,3 @@
-<p><%= gravatar_tag review.user.email, size: 20 %> <%= review.content %> by <%= review.user.name %></p>
+<div class="container">
+	<p><%= gravatar_tag review.user.email, size: 20 %> <%= review.content %> by <%= review.user.name %><div class="score_<%= review.id %>"></div></p>
+</div>
