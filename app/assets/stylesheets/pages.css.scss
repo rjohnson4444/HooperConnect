@@ -7,3 +7,33 @@
 	z-index: 1;
 	width: 200px;
 }
+
+.landing_title {
+	padding-top: 200px;
+}
+
+.landing {
+	background: image-url("basketball_background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height: 95vh;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.btn-landing {
+	background: none;
+	border: solid;
+	color: white;
+}
+
+.btn-landing:hover {
+	background-color: black;
+	border: solid;
+	color: white;
+}
+
+
